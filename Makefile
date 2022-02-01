@@ -18,6 +18,12 @@ docker-build:
 docker-run:
 	@docker-compose up -d
 
+docker-migrate:
+	@docker exec -it cronos-backend make migrate
+
+docker-test:
+	@docker exec -it cronos-backend make test
+
 flake8:
 	@flake8 --show-source .
 
