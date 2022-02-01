@@ -1,8 +1,18 @@
 # Cronos-backend
 
+[Python, Django, MYSQL (Dockers), Postgresql(Heroku)]
+
 ## Objetivo
 
 CRUD para serviços, blogs e integrantes da equipe.
+
+## URL API
+
+https://cronos-backend-api.herokuapp.com
+
+## Documentação
+
+- [Documentação](https://cronos-backend-api.herokuapp.com/docs/)
 
 ## Criação de usuário admin
 
