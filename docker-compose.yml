@@ -5,7 +5,7 @@ services:
     image: mysql:5.7.22
     restart: always
     volumes:
-      - /ops/.db_data:/var/lib/mysql
+      - /opt/.db_data:/var/lib/mysql
     environment:
        MYSQL_DATABASE: db
        MYSQL_USER: root
